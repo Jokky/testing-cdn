@@ -26,7 +26,7 @@ const getRandomUrl = async () => {
     const num = await getRandomNumber(MIN, MAX)
     const sepnum = num.toString().slice(0, 3)
 
-    return `/images_get/${sepnum}/${num}/0_0_orig.jpg`
+    return `/images_gen/${sepnum}/${num}/0_0_orig.jpg`
 }
 
 const main = async () => {
